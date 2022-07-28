@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    background-color: #343633;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    min-height: 75px;  
+}
+
+.logo-onebitcode{
+    width: 200px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.buttonHeader {
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.buttonHeader p{
+    color: white;
+}
+
+.buttonHeader:hover{
+    text-decoration: 3px underline;
+    text-decoration-color: black;
+    text-underline-offset: 10px;
+    cursor: pointer;
+}
