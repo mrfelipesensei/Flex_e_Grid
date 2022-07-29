@@ -73,14 +73,43 @@ h2{
 .item{
     width: 250px;
     min-height: 410px;
-    border: 2px solid grey;
+    border: 3px solid white;
     border-radius: 10px;
-    background-color: white;
+    background-color: transparent;
     font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.item:hover{
+    border: 3px solid grey;
+    border-radius: 10px;
 }
 
 .img{
     border-radius: 10px;
     width: 250px;
     height: 160px;
+}
+
+.footer{
+    margin-top: 20px;
+    background-color: #343633;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    min-height: 75px;  
+}
+
+
+.buttonFooter {
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.buttonFooter p{
+    color: white;
 }
