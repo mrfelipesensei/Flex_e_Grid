@@ -93,6 +93,55 @@ h2{
     height: 160px;
 }
 
+.conteiner2{
+    background-color: #343633;
+    display: block;
+    margin-left: 150vh;
+    margin-right: 5vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.p1{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.p{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+
+.itemb{
+    width: 250px;
+    min-height: 230px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid #343633;
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+
+.itemb:hover{
+    border: 3px solid grey;
+    border-radius: 10px;
+}
+
+.item_5{
+    margin-bottom: 20px;
+}
+
+
 .footer{
     margin-top: 20px;
     background-color: #343633;
