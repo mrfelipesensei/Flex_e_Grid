@@ -66,9 +66,13 @@ h2{
     margin-right: 40px;
     /*background-color: darkgray;
     border: 2px solid black;*/
-    display: flex;
-    flex-wrap: wrap;
     gap: 15px 15px;
+    display: grid;
+    grid-template-columns: repeat(3,0.2fr);
+    grid-template-areas: 
+        "item1 item2 item3"
+        "item4 item5 item6"
+        "item7 item8 item9";
 }
 
 .item{
@@ -80,6 +84,27 @@ h2{
     font-size: 20px;
     cursor: pointer;
     transition: 0.4s;
+}
+.item1{
+    grid-area: item1;
+}
+.item2{
+    grid-area: item2;
+}
+.item5{
+    grid-area: item5; 
+}
+.item6{
+    grid-area: item6;
+}
+.item7{
+    grid-area: item7;
+}
+.item8{
+    grid-area: item8;
+}
+.item9{
+    grid-area: item9;
 }
 
 .item:hover{
